@@ -1,0 +1,18 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package coe528.project;
+
+/**
+ *
+ * @author Rinay Shah
+ */
+
+//Created the interface and the two methods
+public interface Level {
+    int fee = 0;
+    public abstract void changeLevel(CustomerMenuController c);
+    public abstract int getFee();
+}
